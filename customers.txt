@@ -1,0 +1,4 @@
+
+SELECT *  FROM [mykkdb].[dbo].[customers] where customers_firstname = 'Andy'
+
+SELECT [ipn_history_id]  FROM [mykkdb].[dbo].[ipn_history]

@@ -1,0 +1,1 @@
+SELECT  *  FROM [mykkdb].[dbo].[products] where products_id = 1

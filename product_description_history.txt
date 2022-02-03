@@ -1,0 +1,11 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [products_to_products_id]
+      ,[id_from]
+      ,[id_to]
+      ,[relation_type]
+      ,[custom1]
+      ,[custom2]
+      ,[products_options]
+      ,[products_quantity]
+      ,[store_id]
+  FROM [mykkdb].[dbo].[products_to_products]
